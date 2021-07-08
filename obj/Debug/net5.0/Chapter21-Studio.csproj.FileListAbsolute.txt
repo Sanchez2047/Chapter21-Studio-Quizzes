@@ -1,0 +1,16 @@
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\obj\Debug\net5.0\Chapter21-Studio.csproj.AssemblyReference.cache
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\obj\Debug\net5.0\Chapter21-Studio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\obj\Debug\net5.0\Chapter21-Studio.AssemblyInfoInputs.cache
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\obj\Debug\net5.0\Chapter21-Studio.AssemblyInfo.cs
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\obj\Debug\net5.0\Chapter21-Studio.csproj.CoreCompileInputs.cache
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\bin\Debug\net5.0\Chapter21-Studio.exe
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\bin\Debug\net5.0\Chapter21-Studio.deps.json
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\bin\Debug\net5.0\Chapter21-Studio.runtimeconfig.json
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\bin\Debug\net5.0\Chapter21-Studio.runtimeconfig.dev.json
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\bin\Debug\net5.0\Chapter21-Studio.dll
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\bin\Debug\net5.0\ref\Chapter21-Studio.dll
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\bin\Debug\net5.0\Chapter21-Studio.pdb
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\obj\Debug\net5.0\Chapter21-Studio.dll
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\obj\Debug\net5.0\ref\Chapter21-Studio.dll
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\obj\Debug\net5.0\Chapter21-Studio.pdb
+C:\Users\sanch\Desktop\launchcode\chapter21-studio\Chapter21-Studio\obj\Debug\net5.0\Chapter21-Studio.genruntimeconfig.cache
