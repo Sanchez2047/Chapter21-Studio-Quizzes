@@ -54,6 +54,7 @@ namespace Chapter21_Studio
                 letter = (char)numLetter;
             }
             this._questionNum = QuestionNum;
+            Quiz.Add(this);
         }
     }
 }

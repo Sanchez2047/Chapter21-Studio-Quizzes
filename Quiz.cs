@@ -9,24 +9,16 @@ namespace Chapter21_Studio
     public class Quiz
     {
 
-        public static List<MultipleChoice> mcQuestions = new List<MultipleChoice>();
+        public static List<Question> Questions = new List<Question>();
         public static List<CheckBox> cbQuestions = new List<CheckBox>();
-        public static void AddMC(MultipleChoice question)
+        public static void Add(Question question)
         {
-            mcQuestions.Add(question);
-        }
-        public static void AddCB(CheckBox question)
-        {
-            cbQuestions.Add(question);
+            Questions.Add(question);
         }
 
         public static void PrintAll()
         {
-            foreach (MultipleChoice question in mcQuestions)
-            {
-                question.PrintQuestion();
-            }
-            foreach (CheckBox question in cbQuestions)
+            foreach (Question question in Questions)
             {
                 question.PrintQuestion();
             }
