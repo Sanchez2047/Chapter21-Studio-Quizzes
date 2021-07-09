@@ -11,8 +11,9 @@ namespace Chapter21_Studio
         public static int QuestionNum { get; set; }
         public string QuestionAsked { get; set; }
         public string CorrectAnswer { get; set; }
-        public static int NumCorrect { get; set; }
-        public static int NumIncorrect { get; set; }
+        public static double TotalPossPoints { get; set; }
+        public static double NumCorrect { get; set; }
+        public static double NumIncorrect { get; set; }
         public abstract void PrintQuestion();
         public abstract void CheckAnswers();
 

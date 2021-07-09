@@ -19,7 +19,7 @@ namespace Chapter21_Studio
         private int _questionNum { get; }
         public override void PrintQuestion()
         {
-            Console.WriteLine($"{_questionNum}_______{QuestionAsked}");
+            Console.WriteLine($"{_questionNum}_______{QuestionAsked}\n");
             foreach(KeyValuePair<char,string> answer in PossAnswerDict)
             {
                 Console.WriteLine($"\t{answer.Key}. {answer.Value}");
@@ -33,19 +33,17 @@ namespace Chapter21_Studio
             if (PossAnswerDict[UserInput] == CorrectAnswer)
             {
                 NumCorrect++;
-                Console.WriteLine("Correct!");
+                Console.WriteLine("Correct!\n");
             }
             else if (PossAnswerDict[UserInput] != CorrectAnswer)
             {
                 NumIncorrect++;
-                Console.WriteLine("InCorrect!");
+                Console.WriteLine("InCorrect!\n");
             }
         }
 
         public MultipleChoice(string question, string correctAnswer, string[] possAnswers) : base(question,correctAnswer)
         {
-            this.QuestionAsked = question;
-            this.CorrectAnswer = correctAnswer;
             char letter = 'A';
             foreach(string answer in possAnswers)
             {
@@ -54,6 +52,7 @@ namespace Chapter21_Studio
                 letter = (char)numLetter;
             }
             this._questionNum = QuestionNum;
+            TotalPossPoints++;
             Quiz.Add(this);
         }
     }

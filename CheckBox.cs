@@ -25,7 +25,7 @@ namespace Chapter21_Studio
 
         public override void PrintQuestion()
         {
-            Console.WriteLine($"{_questionNum}_______{QuestionAsked}(Please list all that apply seperated by comma)");
+            Console.WriteLine($"{_questionNum}_______{QuestionAsked}(Please list all that apply seperated by comma)\n");
             foreach (KeyValuePair<char, string> answer in PossAnswerDict)
             {
                 Console.WriteLine($"\t{answer.Key}. {answer.Value}");
@@ -43,21 +43,19 @@ namespace Chapter21_Studio
                 if (!CorrectAnswer.Contains(PossAnswerDict[letter]))
                 {
                     NumIncorrect++;
-                    Console.WriteLine("InCorrect!");
+                    Console.WriteLine("InCorrect!\n");
                     break;
                 }
                 else
                 {
                     NumCorrect++;
-                    Console.WriteLine("Correct!");
+                    Console.WriteLine("Correct!\n");
                 }
             }
         }
 
         public CheckBox(string question, string correctAnswer, string[] possAnswers) : base(question, correctAnswer)
         {
-            this.QuestionAsked = question;
-            this.CorrectAnswer = correctAnswer;
             string newAnswer = CorrectAnswer.ToUpper();
             newAnswer.Replace(" ", "");
             CorrectAnswers = newAnswer.Split(",");
@@ -69,6 +67,7 @@ namespace Chapter21_Studio
                 letter = (char)numLetter;
             }
             this._questionNum = QuestionNum;
+            TotalPossPoints += CorrectAnswers.Count();
             Quiz.Add(this);
         }
     }
