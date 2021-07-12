@@ -10,11 +10,10 @@ namespace Chapter21_Studio
     {
         static void Main(string[] args)
         {
-            Quiz quiz = new Quiz();
 
-            quiz.StartQuiz();
+            Quiz.StartQuiz();
             Console.WriteLine("\n\n");
-            quiz.GradeQuiz();
+            Quiz.GradeQuiz();
             Console.ReadLine();
         
         }
